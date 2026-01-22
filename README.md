@@ -91,8 +91,31 @@ The system is organized in layers, each with a specific responsibility:
 | `MODEL_ARMOR_CLIENT.py` | Google Cloud Model Armor API client |
 | `ENUM_CLASSES.py` | Enums, dataclasses, and helper functions |
 | `end_user.py` | Example usage script |
-| `config.json` | Your guardrail configuration |
+| `config.json` | The guardrail configuration file |
 | `secrets/guardrail_secret.json` | GCP service account credentials |
+| `dist/gcp_guardrail-1.0.0-py3-none-any.whl` | To install the GCP Guardrail as a package and use it directly.|
+
+---
+
+### Example snippet after package installation
+
+- To install the package, Perform - pip install dist/gcp_guardrail-1.0.0-py3-none-any.whl - after downloading the complete dist folder.
+- Ensure to have the secrets/service_account.json file and config.json file.
+- Having other details are optional, but place on .env file if you have
+
+Run this code -
+
+from gcp_guardrail import GuardrailRunner
+
+runner = GuardrailRunner(
+    config_path="config.json",
+    key_path="path/to/service_account.json",
+    project_id="your-project-id",
+    location="us-central1",
+    template_id="your-template-id"
+)
+
+result = runner.run("Your text here")
 
 ---
 
