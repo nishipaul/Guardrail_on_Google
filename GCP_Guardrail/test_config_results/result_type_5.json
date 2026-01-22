@@ -1,0 +1,84 @@
+{
+  "input": {
+    "model_armor": {
+      "results": {
+        "filter_results": {
+          "pi_and_jailbreak": {
+            "filter_type": "pi_and_jailbreak",
+            "execution_state": "EXECUTION_SUCCESS",
+            "match_state": "MATCH_FOUND",
+            "confidence_level": "MEDIUM_AND_ABOVE"
+          },
+          "sdp": {
+            "filter_type": "sdp",
+            "execution_state": "EXECUTION_SUCCESS",
+            "match_state": "NO_MATCH_FOUND"
+          },
+          "malicious_uris": {
+            "filter_type": "malicious_uris",
+            "execution_state": "EXECUTION_SUCCESS",
+            "match_state": "NO_MATCH_FOUND"
+          },
+          "rai": {
+            "filter_type": "rai",
+            "execution_state": "EXECUTION_SUCCESS",
+            "match_state": "NO_MATCH_FOUND",
+            "categories": {
+              "hate_speech": {
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              },
+              "dangerous": {
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              },
+              "sexually_explicit": {
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              },
+              "harassment": {
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              }
+            }
+          },
+          "csam": {
+            "filter_type": "csam",
+            "execution_state": "EXECUTION_SUCCESS",
+            "match_state": "NO_MATCH_FOUND"
+          }
+        },
+        "overall_match_state": "MATCH_FOUND"
+      },
+      "time_taken_seconds": 1.5957,
+      "blocked_items": [
+        {
+          "filter": "pi_and_jailbreak",
+          "match_state": "MATCH_FOUND",
+          "confidence_level": "MEDIUM_AND_ABOVE"
+        }
+      ]
+    },
+    "time_taken_seconds": 1.5958
+  },
+  "total_time_seconds": 1.5958,
+  "summary": {
+    "passed": false,
+    "input": {
+      "passed": false,
+      "failures": [
+        {
+          "function": "model_armor",
+          "category": "pi_and_jailbreak",
+          "confidence": null,
+          "severity": null,
+          "reason": null
+        }
+      ]
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

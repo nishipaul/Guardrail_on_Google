@@ -1,0 +1,16 @@
+{
+    "input": {
+        "functions": ["analyze_sentiment", "analyze_entities", "classify_text", "moderate_text"],
+        "analyze_sentiment_block_negative": "True",
+        "analyze_sentiment_score_threshold": -0.25,
+        "analyze_entities_blocked_types": ["PERSON", "PHONE_NUMBER", "EMAIL"],
+        "classify_text_blocked_categories": ["Adult", "Violence"],
+        "classify_text_threshold": 0.5,
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Sexual"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5,
+            "Violent": 0.5,
+            "Sexual": 0.5
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "input": {
+        "functions": ["analyze_sentiment", "moderate_text"],
+        "analyze_sentiment_score_threshold": -0.3,
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Insult"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5,
+            "Violent": 0.5,
+            "Insult": 0.5
+        }
+    }
+}

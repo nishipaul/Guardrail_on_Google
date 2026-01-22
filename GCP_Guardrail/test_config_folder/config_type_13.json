@@ -1,0 +1,7 @@
+{
+    "input": {
+        "functions": ["classify_text"],
+        "classify_text_blocked_categories": ["Adult"],
+        "classify_text_threshold": 0.5
+    }
+}

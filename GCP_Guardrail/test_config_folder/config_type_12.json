@@ -1,0 +1,7 @@
+{
+    "input": {
+        "functions": ["analyze_entities"],
+        "analyze_entities_blocked_types": ["PERSON", "PHONE_NUMBER", "EMAIL", "LOCATION"],
+        "analyze_entities_salience_threshold": 0.3
+    }
+}

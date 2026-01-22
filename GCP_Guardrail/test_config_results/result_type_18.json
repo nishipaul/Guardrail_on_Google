@@ -1,0 +1,133 @@
+{
+  "input": {
+    "moderate_text": {
+      "results": {
+        "moderation": [
+          {
+            "category": "Toxic",
+            "confidence": 0.351,
+            "severity": "LOW"
+          },
+          {
+            "category": "Insult",
+            "confidence": 0.3264,
+            "severity": "LOW"
+          },
+          {
+            "category": "Profanity",
+            "confidence": 0.083,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Derogatory",
+            "confidence": 0.011,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Sexual",
+            "confidence": 0.003,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Death, Harm & Tragedy",
+            "confidence": 0.7037,
+            "severity": "MEDIUM"
+          },
+          {
+            "category": "Violent",
+            "confidence": 0.9251,
+            "severity": "HIGH"
+          },
+          {
+            "category": "Firearms & Weapons",
+            "confidence": 0.0769,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Public Safety",
+            "confidence": 0.0625,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Health",
+            "confidence": 0.0502,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Religion & Belief",
+            "confidence": 0.0539,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Illicit Drugs",
+            "confidence": 0.0574,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "War & Conflict",
+            "confidence": 0.122,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Politics",
+            "confidence": 0.0113,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Finance",
+            "confidence": 0.0797,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "category": "Legal",
+            "confidence": 0.0938,
+            "severity": "NEGLIGIBLE"
+          }
+        ]
+      },
+      "time_taken_seconds": 1.5383,
+      "blocked_items": [
+        {
+          "category": "Death, Harm & Tragedy",
+          "confidence": 0.7037,
+          "severity": "MEDIUM",
+          "threshold": 0.5
+        },
+        {
+          "category": "Violent",
+          "confidence": 0.9251,
+          "severity": "HIGH",
+          "threshold": 0.5
+        }
+      ]
+    },
+    "time_taken_seconds": 1.5383
+  },
+  "total_time_seconds": 1.5383,
+  "summary": {
+    "passed": false,
+    "input": {
+      "passed": false,
+      "failures": [
+        {
+          "function": "moderate_text",
+          "category": "Death, Harm & Tragedy",
+          "confidence": 0.7037,
+          "severity": "MEDIUM",
+          "reason": null
+        },
+        {
+          "function": "moderate_text",
+          "category": "Violent",
+          "confidence": 0.9251,
+          "severity": "HIGH",
+          "reason": null
+        }
+      ]
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

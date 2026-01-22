@@ -1,0 +1,27 @@
+{
+  "input": {
+    "classify_text": {
+      "results": {},
+      "time_taken_seconds": 0.0027,
+      "error": "Text too short for classification (min 20 words)"
+    },
+    "time_taken_seconds": 0.0027
+  },
+  "total_time_seconds": 0.0028,
+  "summary": {
+    "passed": false,
+    "input": {
+      "passed": false,
+      "failures": [
+        {
+          "function": "classify_text",
+          "error": "Text too short for classification (min 20 words)"
+        }
+      ]
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

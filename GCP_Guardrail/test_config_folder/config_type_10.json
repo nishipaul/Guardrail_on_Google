@@ -1,0 +1,7 @@
+{
+    "input": {
+        "functions": ["analyze_entities"],
+        "execution_type": "parallel",
+        "analyze_entities_blocked_types": ["PERSON", "PHONE_NUMBER", "EMAIL", "ADDRESS"]
+    }
+}

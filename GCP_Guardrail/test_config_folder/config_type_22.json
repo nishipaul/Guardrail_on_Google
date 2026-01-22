@@ -1,0 +1,20 @@
+{
+    "input": {
+        "functions": ["moderate_text"],
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Sexual"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5,
+            "Violent": 0.5,
+            "Sexual": 0.5
+        }
+    },
+    "output": {
+        "functions": ["moderate_text"],
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Sexual"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.4,
+            "Violent": 0.4,
+            "Sexual": 0.4
+        }
+    }
+}

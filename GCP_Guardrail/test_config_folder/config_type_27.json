@@ -1,0 +1,24 @@
+{
+    "_comment": "Model Armor includes SDP (Sensitive Data Protection) for PII detection via GCP template",
+    "output": {
+        "functions": ["analyze_entities", "model_armor"],
+        "analyze_entities_blocked_types": ["PERSON", "PHONE_NUMBER", "EMAIL", "ADDRESS", "SSN", "CREDIT_CARD"],
+        "analyze_entities_salience_thresholds": {
+            "PERSON": 0.8,
+            "PHONE_NUMBER": 0.0,
+            "EMAIL": 0.0,
+            "ADDRESS": 0.0,
+            "SSN": 0.0,
+            "CREDIT_CARD": 0.0
+        },
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Sexual", "Profanity"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.4,
+            "Violent": 0.4,
+            "Sexual": 0.4,
+            "Profanity": 0.5
+        },
+        "execution_type": "parallel"
+    }
+}
+

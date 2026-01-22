@@ -1,0 +1,47 @@
+{
+  "input": {
+    "analyze_sentiment": {
+      "results": {
+        "score": -0.9,
+        "magnitude": 0.9,
+        "interpretation": "Mild Negative",
+        "sentences": [
+          {
+            "text": "Hello, I am not happy as I killed someone.",
+            "score": -0.9
+          }
+        ]
+      },
+      "time_taken_seconds": 0.7192,
+      "blocked_items": [
+        {
+          "category": "negative_sentiment",
+          "score": -0.9,
+          "magnitude": 0.9,
+          "reason": "score (-0.9) <= threshold (-0.5)"
+        }
+      ]
+    },
+    "time_taken_seconds": 0.7193
+  },
+  "total_time_seconds": 0.7193,
+  "summary": {
+    "passed": false,
+    "input": {
+      "passed": false,
+      "failures": [
+        {
+          "function": "analyze_sentiment",
+          "category": "negative_sentiment",
+          "confidence": null,
+          "severity": null,
+          "reason": "score (-0.9) <= threshold (-0.5)"
+        }
+      ]
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "input": {
+    "analyze_entities": {
+      "results": {
+        "entities": [
+          {
+            "name": "someone",
+            "type": "PERSON",
+            "salience": 1.0
+          }
+        ]
+      },
+      "time_taken_seconds": 1.716
+    },
+    "time_taken_seconds": 1.716
+  },
+  "total_time_seconds": 1.716,
+  "summary": {
+    "passed": true,
+    "input": {
+      "passed": true
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "input": {
+        "functions": ["analyze_entities"],
+        "analyze_entities_blocked_types": [
+            "PERSON", "PHONE_NUMBER", "EMAIL", "ADDRESS",
+            "IBAN", "ID_NUMBER", "URL"
+        ]
+    }
+}

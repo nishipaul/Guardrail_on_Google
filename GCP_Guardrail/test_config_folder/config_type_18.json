@@ -1,0 +1,11 @@
+{
+    "input": {
+        "functions": ["moderate_text"],
+        "moderate_text_blocked_categories": [
+            "Toxic", "Insult", "Profanity", "Derogatory", "Sexual",
+            "Death, Harm & Tragedy", "Violent", "Firearms & Weapons",
+            "Public Safety", "Health", "Religion & Belief", "Illicit Drugs",
+            "War & Conflict", "Politics", "Finance", "Legal"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "input": {
+    "analyze_entities": {
+      "results": {
+        "entities": [
+          {
+            "name": "someone",
+            "type": "PERSON",
+            "salience": 1.0
+          }
+        ]
+      },
+      "time_taken_seconds": 1.6301,
+      "blocked_items": [
+        {
+          "category": "entity_blocked",
+          "entity_name": "someone",
+          "entity_type": "PERSON",
+          "salience": 1.0,
+          "threshold": 0.0
+        }
+      ]
+    },
+    "time_taken_seconds": 1.6302
+  },
+  "total_time_seconds": 1.6302,
+  "summary": {
+    "passed": false,
+    "input": {
+      "passed": false,
+      "failures": [
+        {
+          "function": "analyze_entities",
+          "category": "entity_blocked",
+          "confidence": 1.0,
+          "severity": null,
+          "reason": null
+        }
+      ]
+    }
+  },
+  "text": {
+    "input_text": "Hello, I am not happy as I killed someone.",
+    "generated_text": null
+  }
+}

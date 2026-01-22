@@ -1,0 +1,7 @@
+{
+    "input": {
+        "functions": ["analyze_sentiment"],
+        "analyze_sentiment_score_threshold": -0.50,
+        "analyze_sentiment_magnitude_threshold": 2.0
+    }
+}

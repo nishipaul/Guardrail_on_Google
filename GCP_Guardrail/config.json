@@ -1,0 +1,6 @@
+{
+  "input": {
+    "functions": ["analyze_sentiment", "moderate_text", "model_armor"],
+    "model_armor_enabled": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "functions": ["analyze_sentiment", "analyze_entities", "moderate_text"],
+        "analyze_entities_blocked_types": ["PHONE_NUMBER", "EMAIL", "ADDRESS", "IBAN"],
+        "analyze_entities_salience_threshold": 0.0,
+        "moderate_text_blocked_categories": ["Toxic", "Insult", "Profanity"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5,
+            "Insult": 0.6,
+            "Profanity": 0.6
+        }
+    },
+    "output": {
+        "functions": ["analyze_entities", "moderate_text"],
+        "analyze_entities_blocked_types": ["PHONE_NUMBER", "EMAIL", "ADDRESS", "IBAN"],
+        "moderate_text_blocked_categories": ["Toxic"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5
+        }
+    }
+}

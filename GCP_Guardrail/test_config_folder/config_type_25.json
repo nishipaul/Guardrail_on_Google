@@ -1,0 +1,36 @@
+{
+    "input": {
+        "functions": ["analyze_entities", "moderate_text", "model_armor"],
+        "analyze_entities_blocked_types": ["PERSON", "PHONE_NUMBER", "EMAIL", "ADDRESS"],
+        "analyze_entities_salience_threshold": 0.1,
+        "moderate_text_blocked_categories": [
+            "Toxic", "Violent", "Sexual", "Insult", "Profanity",
+            "Derogatory", "Illicit Drugs", "Firearms & Weapons",
+            "Death, Harm & Tragedy"
+        ],
+        "moderate_text_thresholds": {
+            "Toxic": 0.3,
+            "Violent": 0.3,
+            "Sexual": 0.2,
+            "Insult": 0.4,
+            "Profanity": 0.3,
+            "Derogatory": 0.3,
+            "Illicit Drugs": 0.3,
+            "Firearms & Weapons": 0.3,
+            "Death, Harm & Tragedy": 0.4
+        }
+    },
+    "output": {
+        "functions": ["moderate_text", "model_armor"],
+        "moderate_text_blocked_categories": [
+            "Toxic", "Violent", "Sexual", "Profanity", "Illicit Drugs"
+        ],
+        "moderate_text_thresholds": {
+            "Toxic": 0.3,
+            "Violent": 0.3,
+            "Sexual": 0.2,
+            "Profanity": 0.3,
+            "Illicit Drugs": 0.3
+        }
+    }
+}

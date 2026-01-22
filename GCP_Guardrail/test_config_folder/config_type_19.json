@@ -1,0 +1,18 @@
+{
+    "input": {
+        "functions": ["moderate_text"],
+        "moderate_text_blocked_categories": [
+            "Toxic", "Violent", "Sexual", "Insult", "Profanity", 
+            "Death, Harm & Tragedy", "Illicit Drugs"
+        ],
+        "moderate_text_thresholds": {
+            "Toxic": 0.3,
+            "Violent": 0.4,
+            "Sexual": 0.4,
+            "Insult": 0.5,
+            "Profanity": 0.6,
+            "Death, Harm & Tragedy": 0.5,
+            "Illicit Drugs": 0.5
+        }
+    }
+}

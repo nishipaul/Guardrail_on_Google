@@ -1,0 +1,12 @@
+{
+    "input": {
+        "functions": ["moderate_text"],
+        "moderate_text_blocked_categories": ["Toxic", "Violent", "Insult", "Profanity"],
+        "moderate_text_thresholds": {
+            "Toxic": 0.5,
+            "Violent": 0.5,
+            "Insult": 0.5,
+            "Profanity": 0.5
+        }
+    }
+}

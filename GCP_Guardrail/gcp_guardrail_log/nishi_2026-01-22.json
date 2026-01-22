@@ -1,0 +1,490 @@
+[
+  {
+    "query_timestamp": "2026-01-22T12:55:20.605812",
+    "user_name": "nishi",
+    "input_text": "Hello, this is a test message.",
+    "output_result": {
+      "input": {
+        "analyze_sentiment": {
+          "results": {
+            "score": -0.1,
+            "magnitude": 0.1,
+            "interpretation": "Mild Neutral",
+            "sentences": [
+              {
+                "text": "Hello, this is a test message.",
+                "score": -0.1
+              }
+            ]
+          },
+          "time_taken_seconds": 1.5567
+        },
+        "analyze_entities": {
+          "results": {
+            "entities": [
+              {
+                "name": "test message",
+                "type": "WORK_OF_ART",
+                "salience": 1.0
+              }
+            ]
+          },
+          "time_taken_seconds": 1.2717
+        },
+        "moderate_text": {
+          "results": {
+            "moderation": [
+              {
+                "category": "Toxic",
+                "confidence": 0.0167,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Insult",
+                "confidence": 0.0145,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Profanity",
+                "confidence": 0.006,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Derogatory",
+                "confidence": 0.0048,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Sexual",
+                "confidence": 0.003,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Death, Harm & Tragedy",
+                "confidence": 0.0093,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Violent",
+                "confidence": 0.0026,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Firearms & Weapons",
+                "confidence": 0.0,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Public Safety",
+                "confidence": 0.0107,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Health",
+                "confidence": 0.0405,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Religion & Belief",
+                "confidence": 0.0125,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Illicit Drugs",
+                "confidence": 0.0294,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "War & Conflict",
+                "confidence": 0.0104,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Politics",
+                "confidence": 0.005,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Finance",
+                "confidence": 0.0149,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Legal",
+                "confidence": 0.012,
+                "severity": "NEGLIGIBLE"
+              }
+            ]
+          },
+          "time_taken_seconds": 0.3346
+        },
+        "model_armor": {
+          "results": {
+            "filter_results": {
+              "csam": {
+                "filter_type": "csam",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "sdp": {
+                "filter_type": "sdp",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "rai": {
+                "filter_type": "rai",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "categories": {
+                  "dangerous": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "hate_speech": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "sexually_explicit": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "harassment": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  }
+                }
+              },
+              "malicious_uris": {
+                "filter_type": "malicious_uris",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "pi_and_jailbreak": {
+                "filter_type": "pi_and_jailbreak",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              }
+            },
+            "overall_match_state": "NO_MATCH_FOUND"
+          },
+          "time_taken_seconds": 1.108
+        },
+        "time_taken_seconds": 4.2711
+      },
+      "output": {
+        "moderate_text": {
+          "results": {
+            "moderation": [
+              {
+                "category": "Toxic",
+                "confidence": 0.0167,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Insult",
+                "confidence": 0.0145,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Profanity",
+                "confidence": 0.006,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Derogatory",
+                "confidence": 0.0048,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Sexual",
+                "confidence": 0.003,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Death, Harm & Tragedy",
+                "confidence": 0.0093,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Violent",
+                "confidence": 0.0026,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Firearms & Weapons",
+                "confidence": 0.0,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Public Safety",
+                "confidence": 0.0107,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Health",
+                "confidence": 0.0405,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Religion & Belief",
+                "confidence": 0.0125,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Illicit Drugs",
+                "confidence": 0.0294,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "War & Conflict",
+                "confidence": 0.0104,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Politics",
+                "confidence": 0.005,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Finance",
+                "confidence": 0.0149,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Legal",
+                "confidence": 0.012,
+                "severity": "NEGLIGIBLE"
+              }
+            ]
+          },
+          "time_taken_seconds": 1.2825
+        },
+        "model_armor": {
+          "results": {
+            "filter_results": {
+              "csam": {
+                "filter_type": "csam",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "sdp": {
+                "filter_type": "sdp",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "rai": {
+                "filter_type": "rai",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "categories": {
+                  "dangerous": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "hate_speech": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "sexually_explicit": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "harassment": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  }
+                }
+              },
+              "malicious_uris": {
+                "filter_type": "malicious_uris",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "pi_and_jailbreak": {
+                "filter_type": "pi_and_jailbreak",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              }
+            },
+            "overall_match_state": "NO_MATCH_FOUND"
+          },
+          "time_taken_seconds": 0.4282
+        },
+        "time_taken_seconds": 1.7107
+      },
+      "total_time_seconds": 5.9819,
+      "summary": {
+        "passed": true
+      }
+    }
+  },
+  {
+    "query_timestamp": "2026-01-22T12:57:27.458642",
+    "user_name": "nishi",
+    "input_text": "Hello, this is a test message.",
+    "output_result": {
+      "input": {
+        "analyze_sentiment": {
+          "results": {
+            "score": -0.1,
+            "magnitude": 0.1,
+            "interpretation": "Mild Neutral",
+            "sentences": [
+              {
+                "text": "Hello, this is a test message.",
+                "score": -0.1
+              }
+            ]
+          },
+          "time_taken_seconds": 0.6546
+        },
+        "moderate_text": {
+          "results": {
+            "moderation": [
+              {
+                "category": "Toxic",
+                "confidence": 0.0167,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Insult",
+                "confidence": 0.0145,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Profanity",
+                "confidence": 0.006,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Derogatory",
+                "confidence": 0.0048,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Sexual",
+                "confidence": 0.003,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Death, Harm & Tragedy",
+                "confidence": 0.0093,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Violent",
+                "confidence": 0.0026,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Firearms & Weapons",
+                "confidence": 0.0,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Public Safety",
+                "confidence": 0.0107,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Health",
+                "confidence": 0.0405,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Religion & Belief",
+                "confidence": 0.0125,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Illicit Drugs",
+                "confidence": 0.0294,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "War & Conflict",
+                "confidence": 0.0104,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Politics",
+                "confidence": 0.005,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Finance",
+                "confidence": 0.0149,
+                "severity": "NEGLIGIBLE"
+              },
+              {
+                "category": "Legal",
+                "confidence": 0.012,
+                "severity": "NEGLIGIBLE"
+              }
+            ]
+          },
+          "time_taken_seconds": 0.3402
+        },
+        "model_armor": {
+          "results": {
+            "filter_results": {
+              "rai": {
+                "filter_type": "rai",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "categories": {
+                  "hate_speech": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "dangerous": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "sexually_explicit": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  },
+                  "harassment": {
+                    "match_state": "NO_MATCH_FOUND",
+                    "confidence_level": null
+                  }
+                }
+              },
+              "sdp": {
+                "filter_type": "sdp",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "csam": {
+                "filter_type": "csam",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              },
+              "pi_and_jailbreak": {
+                "filter_type": "pi_and_jailbreak",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND",
+                "confidence_level": null
+              },
+              "malicious_uris": {
+                "filter_type": "malicious_uris",
+                "execution_state": "EXECUTION_SUCCESS",
+                "match_state": "NO_MATCH_FOUND"
+              }
+            },
+            "overall_match_state": "NO_MATCH_FOUND"
+          },
+          "time_taken_seconds": 1.0352
+        },
+        "time_taken_seconds": 2.0301
+      },
+      "total_time_seconds": 2.0301,
+      "summary": {
+        "passed": true
+      }
+    }
+  }
+]
