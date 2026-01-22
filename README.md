@@ -105,6 +105,7 @@ The system is organized in layers, each with a specific responsibility:
 
 Run this code -
 
+```python
 from gcp_guardrail import GuardrailRunner
 
 runner = GuardrailRunner(
@@ -116,6 +117,9 @@ runner = GuardrailRunner(
 )
 
 result = runner.run("Your text here")
+```
+
+Pass user_name parameter in the GuardrailRunner() class for saving the log files with the provided user name. Default name is simpplr.
 
 ---
 
